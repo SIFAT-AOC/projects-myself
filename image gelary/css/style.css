@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(130, 113, 170);
+}
+h1{
+    text-align: center;
+    margin: 20px auto;
+    color: rgba(241, 249, 243, 0.575);
+}
+.gellary{
+    margin: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gellary img{
+    width: 230px;
+    padding: 5px;
+    height: 200px;
+    filter: grayscale(100%);
+    transition: 1s;
+    object-fit: cover;
+}
+.gellary img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+@media (max-width:860px) {
+    .gellary{
+        flex-basis: 50%;
+    }
+}
