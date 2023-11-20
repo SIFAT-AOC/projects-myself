@@ -1,3 +1,4 @@
+// find the largest Word from a String
 function findLongestWordLength(str) {
     let storeString = str.split(' ');
     console.log(storeString);
@@ -12,7 +13,7 @@ function findLongestWordLength(str) {
   
  console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
 
-
+// find the largest number from the 2D array
 function largestOfFour(arr) {
     let storeEle = [];
     for(let i=0;i<arr.length;i++){
